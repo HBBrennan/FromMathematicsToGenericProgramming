@@ -1,0 +1,13 @@
+.vscode
+From_Mathematics_to_Generic_Programming_3_8.pdf
+GPATH
+GRTAGS
+GTAGS
+bin
+*.out
+*.log
+*.fdb_latexmk
+*.pdf
+*.fls
+*.gz
+ch3.tex.aux main.aux

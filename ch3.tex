@@ -1,0 +1,24 @@
+\begin{enumerate}
+\item [(3.7)] Prove that every even perfect number is a triangular number.
+
+\begin{align}
+    \triangle_n &= \frac{n(n+1)}{2} \label{triangle} \\
+    \sum_{i=0}^{n-1} 2^i &= 2^n - 1 \label{pow}
+\end{align}
+
+
+
+Let $x$ be an even perfect number which means it can be written of the form:
+\begin{align*}
+x = 2^n \sum_{i=0}^n 2^i
+\end{align*}
+where $2^n-1$ is prime and $n$ is a natural number.
+\begin{align}
+    x &= 2^n \sum_{i=0}^n 2^i \\
+    \overset{\text{by \eqref{pow}}}{\Longrightarrow} &= 2^n(2^{n+1} - 1)\\
+    \text{Let } y &= 2^{n+1} - 1\\
+    x &= (\frac{y+1}{2})(y) \\
+    &= \frac{y(y+1)}{2} \\
+    \overset{\text{by \eqref{triangle}}}{\Longrightarrow} x &= \triangle_y
+\end{align}
+\end{enumerate}
